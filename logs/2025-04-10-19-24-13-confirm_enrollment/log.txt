@@ -1,0 +1,8 @@
+2025-04-11 02:24:13 [INFO] [2025-04-10T19:24:13.904887] ⚡ START create_user_registration
+2025-04-11 02:24:13 [ERROR] [2025-04-10T19:24:13.904887] ❗ Internal Server Error: name 'cccd_dataset' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\data_models\user\router.py", line 58, in create_user_registration
+    logger.info(f"[{request_id}] 🔍 Verifying user by ID: {cccd_dataset.data['id']}")
+                                                           ^^^^^^^^^^^^
+NameError: name 'cccd_dataset' is not defined
+2025-04-11 02:24:13 [INFO] [2025-04-10T19:24:13.904887] ❌ END create_user_registration (Exception) ⏱️ 0.00s

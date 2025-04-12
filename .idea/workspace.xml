@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ad78e20-bc58-49ae-b680-ddb8c96c1509" name="Changes" comment="init project and done enrollment API" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2vHF9crmzrIOHxkrsIGj17fuB7Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Innotech_mobile13/Documents/Huit/HK2/CNNFaceRegconition&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\models" />
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\common" />
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\data_models\auth" />
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\res" />
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\res\libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\data_models" />
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="kyc_be" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="kyc_be" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ad78e20-bc58-49ae-b680-ddb8c96c1509" name="Changes" comment="" />
+      <created>1743793942090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743793942090</updated>
+      <workItem from="1743793943329" duration="5267000" />
+      <workItem from="1743823886623" duration="44472000" />
+      <workItem from="1743886427058" duration="775000" />
+      <workItem from="1743918373199" duration="1959000" />
+      <workItem from="1744005775539" duration="29000" />
+      <workItem from="1744009973921" duration="749000" />
+      <workItem from="1744202931875" duration="7014000" />
+      <workItem from="1744289146482" duration="9668000" />
+      <workItem from="1744304000834" duration="9450000" />
+      <workItem from="1744375256035" duration="1366000" />
+      <workItem from="1744440565025" duration="986000" />
+      <workItem from="1744444177977" duration="3443000" />
+      <workItem from="1744447932000" duration="625000" />
+      <workItem from="1744448628724" duration="107000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project and done enrollment API">
+      <created>1743833503100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743833503100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init project and done enrollment API">
+      <created>1743834464843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743834464843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init project and done enrollment API">
+      <created>1743834837549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743834837549</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init project and done enrollment API">
+      <created>1744447382059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744447382059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init project and done enrollment API">
+      <created>1744448142884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448142884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init project and done enrollment API">
+      <created>1744448304511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448304511</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init project and done enrollment API">
+      <created>1744448487229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448487229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project and done enrollment API" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project and done enrollment API" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kyc/data_models/user/router.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kyc_be$main.coverage" NAME="main Coverage Results" MODIFIED="1743827297937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kyc_be$router.coverage" NAME="router Coverage Results" MODIFIED="1743845024729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/data_models/auth" />
+    <SUITE FILE_PATH="coverage/kyc_be$test_ocr_model.coverage" NAME="test_ocr_model Coverage Results" MODIFIED="1744307642534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
+    <SUITE FILE_PATH="coverage/kyc_be$kyc_be.coverage" NAME="kyc_be Coverage Results" MODIFIED="1743882509029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/kyc_be$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1743844908764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
+    <SUITE FILE_PATH="coverage/kyc_be$test_connection.coverage" NAME="test_connection Coverage Results" MODIFIED="1743828437095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
+    <SUITE FILE_PATH="coverage/kyc_be$test_model_v2.coverage" NAME="test_model_v2 Coverage Results" MODIFIED="1743848209541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+2025-04-11 02:40:51 [INFO] [2025-04-10T19:40:51.575982] ⚡ START execute_ocr_id_card_logon
+2025-04-11 02:40:51 [INFO] [2025-04-10T19:40:51.575982] 📦 Loading OCR model from: C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\models\yolov11.pt
+2025-04-11 02:40:51 [INFO] [2025-04-10T19:40:51.575982] 🖼️ Successfully decoded image from base64.
+2025-04-11 02:40:51 [INFO] [2025-04-10T19:40:51.575982] 🤖 Running OCR detection...
+2025-04-11 02:40:52 [INFO] [2025-04-10T19:40:51.575982] 📄 Extracted data: {}
+2025-04-11 02:40:52 [WARNING] [2025-04-10T19:40:51.575982] ❌ Unable to extract ID from image.
