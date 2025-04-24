@@ -1,0 +1,3 @@
+2025-04-12 17:19:18 [INFO] [2025-04-12T10:19:18.289603] ⚡ START create_user_registration
+2025-04-12 17:19:18 [INFO] [2025-04-12T10:19:18.289603] 🔍 Verifying user by ID
+2025-04-12 17:19:18 [INFO] [2025-04-12T10:19:18.289603] ✅ END create_user_registration (Success) ⏱️ 0.12s

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card shadow-sm rounded-lg">
+    <div class="card-body">
+        <h4 class="card-title text-center text-primary">{{ user.full_name }}</h4>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>ID Card:</strong> {{ user.id_card }}</p>
+                <p><strong>Date of Birth:</strong> {{ user.dob }}</p>
+                <p><strong>Sex:</strong> {{ user.sex }}</p>
+                <p><strong>Nationality:</strong> {{ user.nationality }}</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Place of Origin:</strong> {{ user.place_of_origin }}</p>
+                <p><strong>Place of Residence:</strong> {{ user.place_of_residence }}</p>
+                <p><strong>Date of Expiry:</strong> {{ user.date_of_expiry }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- ID Cards Section -->
+<div class="row mt-5">
+    <div class="col-md-6">
+        <h5 class="text-center text-muted">Front ID Card</h5>
+        {% if user.front_id_card_base64 %}
+            <img src="data:image/jpeg;base64,{{ user.front_id_card_base64 }}" class="img-fluid rounded shadow" alt="Front ID Card">
+        {% else %}
+            <img src="/static/images/no_image.png" class="img-fluid rounded shadow" alt="No Image Available">
+        {% endif %}
+    </div>
+    <div class="col-md-6">
+        <h5 class="text-center text-muted">Back ID Card</h5>
+        {% if user.back_id_card_base64 %}
+            <img src="data:image/jpeg;base64,{{ user.back_id_card_base64 }}" class="img-fluid rounded shadow" alt="Back ID Card">
+        {% else %}
+            <img src="/static/images/no_image.png" class="img-fluid rounded shadow" alt="No Image Available">
+        {% endif %}
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- Face Images Section -->
+<div class="row mt-5">
+    <div class="col-md-4">
+        <h5 class="text-center text-muted">Front Face</h5>
+        {% if user.front_face_base64 %}
+            <img src="data:image/jpeg;base64,{{ user.front_face_base64 }}" class="img-fluid rounded shadow" alt="Front Face">
+        {% else %}
+            <img src="/static/images/no_image.png" class="img-fluid rounded shadow" alt="No Image Available">
+        {% endif %}
+    </div>
+    <div class="col-md-4">
+        <h5 class="text-center text-muted">Left Face</h5>
+        {% if user.left_face_base64 %}
+            <img src="data:image/jpeg;base64,{{ user.left_face_base64 }}" class="img-fluid rounded shadow" alt="Left Face">
+        {% else %}
+            <img src="/static/images/no_image.png" class="img-fluid rounded shadow" alt="No Image Available">
+        {% endif %}
+    </div>
+    <div class="col-md-4">
+        <h5 class="text-center text-muted">Right Face</h5>
+        {% if user.right_face_base64 %}
+            <img src="data:image/jpeg;base64,{{ user.right_face_base64 }}" class="img-fluid rounded shadow" alt="Right Face">
+        {% else %}
+            <img src="/static/images/no_image.png" class="img-fluid rounded shadow" alt="No Image Available">
+        {% endif %}
+    </div>
+</div>
+
+<div class="mt-5 text-center">
+    <a href="/web/users" class="btn btn-outline-primary btn-lg">← Back to Users List</a>
+</div>
+{% endblock %}

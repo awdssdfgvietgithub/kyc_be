@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card shadow rounded border-0">
+    <div class="card-header bg-gradient bg-primary text-white d-flex align-items-center justify-content-between">
+        <h5 class="mb-0"><i class="bi bi-people-fill me-2"></i>Danh sách người dùng</h5>
+    </div>
+
+    <div class="card-body">
+        <form method="get" class="row g-2 mb-4 align-items-end">
+            <div class="col-md-5">
+                <label for="name" class="form-label">Họ tên</label>
+                <input type="text" name="name" value="{{ name or '' }}" class="form-control" placeholder="Tìm theo họ tên">
+            </div>
+            <div class="col-md-5">
+                <label for="id_card" class="form-label">CCCD</label>
+                <input type="text" name="id_card" value="{{ id_card or '' }}" class="form-control" placeholder="Tìm theo CCCD">
+            </div>
+            <div class="col-md-2 d-grid">
+                <button type="submit" class="btn btn-primary"><i class="bi bi-search me-1"></i> Tìm kiếm</button>
+            </div>
+        </form>
+
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered align-middle text-center">
+                <thead class="table-light">
+                    <tr class="text-nowrap">
+                        <th>#</th>
+                        <th>Họ và tên</th>
+                        <th>CMND/CCCD</th>
+                        <th>Quốc tịch</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ user.id }}</td>
+                        <td>{{ user.full_name }}</td>
+                        <td>{{ user.id_card }}</td>
+                        <td>{{ user.nationality }}</td>
+                        <td>
+                            <a class="btn btn-sm btn-outline-primary" href="/web/user/{{ user.id }}">
+                                <i class="bi bi-eye"></i> Xem
+                            </a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-muted fst-italic">Không có kết quả phù hợp</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination -->
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item {% if page == 1 %}disabled{% endif %}">
+                    <a class="page-link" href="/web/users?page={{ page - 1 }}{% if name %}&name={{ name }}{% endif %}{% if id_card %}&id_card={{ id_card }}{% endif %}">
+                        « Trước
+                    </a>
+                </li>
+
+                {% for p in range(1, total_pages + 1) %}
+                <li class="page-item {% if p == page %}active{% endif %}">
+                    <a class="page-link"
+                       href="/web/users?page={{ p }}{% if name %}&name={{ name }}{% endif %}{% if id_card %}&id_card={{ id_card }}{% endif %}">
+                        {{ p }}
+                    </a>
+                </li>
+                {% endfor %}
+
+                <li class="page-item {% if page == total_pages %}disabled{% endif %}">
+                    <a class="page-link" href="/web/users?page={{ page + 1 }}{% if name %}&name={{ name }}{% endif %}{% if id_card %}&id_card={{ id_card }}{% endif %}">
+                        Tiếp »
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+{% endblock %}

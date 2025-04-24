@@ -1,0 +1,24 @@
+/* Theme sáng */
+body {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.card-body {
+    background-color: white;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hình ảnh mặc định khi không có hình ảnh */
+img[src*="no_image"] {
+    filter: grayscale(100%) brightness(50%);
+}

@@ -24,7 +24,7 @@ class User(Base):
     left_face_base64 = Column(String)
     right_face_base64 = Column(String)
 
-    def __int__(self,
+    def __init__(self,
                 id_card, full_name, dob, sex, nationality, place_of_origin, place_of_residence, date_of_expiry,
                 front_id_card_base64, back_id_card_base64,
                 front_face_base64, left_face_base64, right_face_base64,
