@@ -1,7 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ad78e20-bc58-49ae-b680-ddb8c96c1509" name="Changes" comment="init project and done enrollment API" />
+    <list default="true" id="8ad78e20-bc58-49ae-b680-ddb8c96c1509" name="Changes" comment="init project and done enrollment API">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df5a788d-569c-4b35-9571-713afec1283e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df5a788d-569c-4b35-9571-713afec1283e/storage_v2/_src_/database/huitkyc.vRItSw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df5a788d-569c-4b35-9571-713afec1283e/storage_v2/_src_/database/huitkyc.vRItSw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df5a788d-569c-4b35-9571-713afec1283e/storage_v2/_src_/database/huitkyc.vRItSw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df5a788d-569c-4b35-9571-713afec1283e/storage_v2/_src_/database/huitkyc.vRItSw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alembic/versions/520797fb4bcf_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-13-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-13-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-13-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/image_two_034079023263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-00-48-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/image_two_034079023263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-02-08-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/image_two_034079023263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-10-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/image_two_034079023263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-03-56-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/image_two_034079023263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-07-45-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-13-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-13-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-13-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-13-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-17-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-17-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-17-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-10-17-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-07-ocr_id_card_logon/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-07-ocr_id_card_logon/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-07-ocr_id_card_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-19-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-19-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-19-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-11-19-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-14-34-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-14-34-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-14-34-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-14-34-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-15-ocr_id_card_logon/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-15-ocr_id_card_logon/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-15-ocr_id_card_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-27-ocr_id_card_logon/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-27-ocr_id_card_logon/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-15-27-ocr_id_card_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-07-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-07-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-07-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-07-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-12-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-12-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-12-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-12-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-32-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-32-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-32-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-16-32-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-17-39-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-17-39-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-17-39-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-17-39-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-18-27-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-18-27-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-18-27-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-18-27-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-02-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-02-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-02-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-18-confirm_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-53-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-53-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-53-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-19-53-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-01-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-01-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-01-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-21-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-21-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-21-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-38-confirm_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-47-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-47-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-47-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-47-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-59-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-59-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-20-59-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-06-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-06-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-06-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-06-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-54-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-54-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-54-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-21-54-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-22-48-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-22-48-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-22-48-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-22-48-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-07-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-07-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-07-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-31-confirm_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-50-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-50-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-50-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-23-50-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-43-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-43-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-43-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-43-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-43-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-53-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-53-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-53-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-53-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-24-53-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-25-00-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-25-00-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-25-00-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-25-00-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-24-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-24-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-24-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-24-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-49-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-49-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-26-49-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-27-54-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-27-54-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-27-54-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-10-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-10-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-10-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-36-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-36-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-36-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-55-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-55-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-28-55-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-03-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-03-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-03-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-03-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-22-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-22-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-22-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-30-50-confirm_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-31-50-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-31-50-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-31-50-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-31-50-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-31-50-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-03-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-03-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-03-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-03-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-03-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-13-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-13-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-13-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-13-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-13-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-20-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-20-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-20-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-20-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-20-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-34-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-34-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-34-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-34-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-32-34-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-19-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-19-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-19-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-19-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-40-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-40-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-40-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-48-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-48-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-33-48-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-05-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-05-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-05-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-44-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-44-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-34-44-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-12-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-12-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-12-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-59-ocr_id_card_enrollment/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-59-ocr_id_card_enrollment/image_cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-59-ocr_id_card_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-35-59-ocr_id_card_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-25-liveness_enrollment/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-25-liveness_enrollment/image_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-25-liveness_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-37-confirm_enrollment/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-52-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-52-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-52-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-52-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-36-52-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-01-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-01-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-01-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-01-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-01-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-17-liveness_logon/image_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-17-liveness_logon/image_two_075080000320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-17-liveness_logon/image_two_079097027076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-17-liveness_logon/image_two_079202027771.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2025-04-12-10-37-17-liveness_logon/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyc/data_models/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/kyc/data_models/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyc/data_models/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/kyc/data_models/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyc/data_models/user/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/kyc/data_models/user/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +266,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,21 +288,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Innotech_mobile13/Documents/Huit/HK2/CNNFaceRegconition&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "last_opened_file_path": "C:/Users/Innotech_mobile13/Documents/Huit/HK2/CNNFaceRegconition",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\models" />
@@ -61,6 +315,7 @@
       <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\res\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be" />
       <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\data_models" />
       <recent name="C:\Users\Innotech_mobile13\Documents\Huit\kyc_be\kyc\models" />
     </key>
@@ -103,6 +358,9 @@
       <workItem from="1744444177977" duration="3443000" />
       <workItem from="1744447932000" duration="625000" />
       <workItem from="1744448628724" duration="107000" />
+      <workItem from="1744448746816" duration="5700000" />
+      <workItem from="1744455099176" duration="3321000" />
+      <workItem from="1745494324365" duration="5994000" />
     </task>
     <task id="LOCAL-00001" summary="init project and done enrollment API">
       <created>1743833503100</created>
@@ -153,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744448487229</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init project and done enrollment API">
+      <created>1744448766530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744448766530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +467,7 @@
     <SUITE FILE_PATH="coverage/kyc_be$router.coverage" NAME="router Coverage Results" MODIFIED="1743845024729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/data_models/auth" />
     <SUITE FILE_PATH="coverage/kyc_be$test_ocr_model.coverage" NAME="test_ocr_model Coverage Results" MODIFIED="1744307642534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
     <SUITE FILE_PATH="coverage/kyc_be$kyc_be.coverage" NAME="kyc_be Coverage Results" MODIFIED="1743882509029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/kyc_be$pytest_in_test_connection_py.coverage" NAME="pytest in test_connection.py Coverage Results" MODIFIED="1744456455085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
     <SUITE FILE_PATH="coverage/kyc_be$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1743844908764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
     <SUITE FILE_PATH="coverage/kyc_be$test_connection.coverage" NAME="test_connection Coverage Results" MODIFIED="1743828437095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />
     <SUITE FILE_PATH="coverage/kyc_be$test_model_v2.coverage" NAME="test_model_v2 Coverage Results" MODIFIED="1743848209541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kyc/common" />

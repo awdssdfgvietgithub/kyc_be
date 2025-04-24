@@ -1,6 +1,6 @@
-from fastapi import HTTPException, status
 from . import models
 from . import schema
+from requests import Session
 
 
 async def new_user_register(request, database) -> models.User:
@@ -25,3 +25,18 @@ async def new_user_register(request, database) -> models.User:
     database.commit()
     database.refresh(new_user)
     return new_user
+
+
+async def get_all_users(db: Session, skip: int = 0, limit: int = 10, name: str = None, id_card: str = None):
+    query = db.query(models.User)
+
+    if name:
+        query = query.filter(models.User.full_name.ilike(f"%{name}%"))
+    if id_card:
+        query = query.filter(models.User.id_card.contains(id_card))
+
+    return query.offset(skip).limit(limit).all()
+
+
+async def get_user_by_id(user_id: int, db: Session):
+    return db.query(models.User).filter(models.User.id == user_id).first()

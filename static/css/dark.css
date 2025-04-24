@@ -1,0 +1,24 @@
+/* Theme tối */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.card.dark-mode {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+.card-body.dark-mode {
+    background-color: #333333;
+}
+
+img.dark-mode {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hình ảnh mặc định khi không có hình ảnh */
+img[src*="no_image"] {
+    filter: grayscale(100%) brightness(50%);
+}
